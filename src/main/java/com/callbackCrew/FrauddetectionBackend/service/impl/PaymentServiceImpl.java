@@ -2,8 +2,10 @@ package com.callbackCrew.FrauddetectionBackend.service.impl;
 
 import com.callbackCrew.FrauddetectionBackend.dto.PaymentResponseDTO;
 import com.callbackCrew.FrauddetectionBackend.entity.Payment;
+import com.callbackCrew.FrauddetectionBackend.entity.PaymentResponse;
 import com.callbackCrew.FrauddetectionBackend.repository.PaymentRepository;
 import com.callbackCrew.FrauddetectionBackend.service.PaymentService;
+import com.callbackCrew.FrauddetectionBackend.service.WebClient.MLCallClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +22,6 @@ public class PaymentServiceImpl implements PaymentService {
 
     @Override
     public PaymentResponseDTO generateFraudResponse(Payment paymentInfo) {
-        paymentInfo
         Payment payment = paymentRepository.save(paymentInfo);
 //        PaymentResponseDTO paymentResponseDTO = new PaymentResponseDTO();
 //        List<String> rulesViolated = new ArrayList<>();
@@ -35,13 +36,14 @@ public class PaymentServiceImpl implements PaymentService {
 //        String timestampString = timestamp.toString();
 //        paymentResponseDTO.setTimestamp(timestampString);
 //        return paymentResponseDTO;
-
+        PaymentResponseDTO mLCall = MLCallClient.webClientCall(paymentInfo);
+        if(validateRule1(paymentInfo)){
+            mLCall.getRuleViolated().add("RULE-001");
+        }
+        if(validateRule2(paymentInfo)){
+            mLCall.getRuleViolated().add("RULE-002");
+        }
         return null;
     }
 
-    @Override
-    public List<String> getViolatedRules(Payment paymentInfo) {
-
-        return null;
-    }
 }

@@ -60,4 +60,8 @@ public class Payment {
     private boolean authorisationStatus;
     private String latitude;
     private String longitude;
+
+    private String noOfLocations;
+    private String TotalAmount;
+    private String InretialCardBalance;
 }
