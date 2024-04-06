@@ -102,6 +102,6 @@ Workflow of the project:
 
 Workflow of the APIs:
 
-  [![Workflow](https://github.com/poorvika7khanna/fraud-detection-backend/blob/main/Screenshot%20(24).png)]()
+  [![Workflow](https://github.com/poorvika7khanna/fraud-detection-backend/blob/main/Screenshot%20(25).png)]()
 
 
