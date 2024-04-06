@@ -128,13 +128,6 @@ Some of the challenges we encountered during the development process included:
 - Integrating the system with existing infrastructure and ensuring scalability and performance.
 - Staying updated with evolving fraud tactics and adjusting the system accordingly.
 
-## Accomplishments
-We are proud of achieving the following milestones:
-- Developing a robust fraud detection system capable of accurately identifying fraudulent activities while minimizing false alarms.
-- Collaborating effectively across multidisciplinary teams, including data scientists, engineers, and domain experts.
-- Deploying the system successfully in real-world environments and witnessing its impact in reducing financial losses and enhancing security.
-- Receiving positive feedback from stakeholders and gaining recognition for our contributions to fraud prevention efforts.
-
 ## Lessons Learned
 Throughout the project, we learned valuable lessons, including:
 - The importance of feature selection and engineering in improving model performance and interpretability.
