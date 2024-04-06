@@ -148,5 +148,3 @@ In the future, we plan to:
 - Integrate more external data sources and leverage alternative data types, such as text and image data, for more comprehensive fraud detection.
 - Enhance the system's explainability and transparency to build trust among users and stakeholders.
 - Collaborate with industry partners and regulatory bodies to address emerging challenges and ensure compliance with evolving standards and regulations.
-
----
