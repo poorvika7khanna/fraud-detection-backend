@@ -149,3 +149,10 @@ In the future, we plan to:
 
 ## Machine Learning Algorithm:
 [ML Algo](https://github.com/sarikasingh30/CallOut-Farzi)
+
+
+## Instructions:
+1. install JDK 17
+2. install the application in local JDK.
+3. Run following link to run the app: http://localhost:8080/swagger-ui/index.html#/payment-controller/generateResponse
+4. We tried to run the app in aws ec2 contaner however the VM was unable to install JDK 17. 
