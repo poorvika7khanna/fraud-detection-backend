@@ -27,12 +27,13 @@ To solve this challenge, develop an API that does real-time monitoring and analy
 
 The solution should be able to flag these scenarios:
 
-If the user tries to make transactions with a total cumulative amount >= to 70% of the card balance and the balance >= Rs 3,00,000 within 12 hours. (RULE-001)
-Users transact from more than 5 locations (the minimum difference is 200KM between two locations) and transact with that card for more than 1,00,000 Rs within a 12-hour window. (RULE-002)
-If the transactions from a card don’t follow the coherent pattern of the last 12-hour/1-day/7-day window. (RULE-003)
-If the transaction doesn’t follow a coherent pattern with the merchant category code of the last 3-day/7-day/30-day for the card (RULE-004)
+##### R1-> If the user tries to make transactions with a total cumulative amount >= to 70% of the card balance and the balance >= Rs 3,00,000 within 12 hours. (RULE-001)
+##### R2-> Users transact from more than 5 locations (the minimum difference is 200KM between two locations) and transact with that card for more than 1,00,000 Rs within a 12-hour window. (RULE-002)
+##### R3-> If the transactions from a card don’t follow the coherent pattern of the last 12-hour/1-day/7-day window. (RULE-003)
+##### R4-> If the transaction doesn’t follow a coherent pattern with the merchant category code of the last 3-day/7-day/30-day for the card (RULE-004)
 The input is a json payload containing relevant fields for the above scenarios:
 
+```
 {
 "mti": "0100",
 "processingCode": "000000",
@@ -84,6 +85,7 @@ The output response must be in json and should follow this structure: {
 
 }
 
+```
 Submission Format:
 
 Fully functional API hosted on any freeware server . If required we can provide AWS Infrastructure. API documentation if the specifications are different than above.
@@ -100,6 +102,6 @@ Workflow of the project:
 
 Workflow of the APIs:
 
-  [![Workflow](https://github.com/poorvika7khanna/fraud-detection-backend/blob/main/Workflow_fraud_detection.png)]()
+  [![Workflow](https://github.com/poorvika7khanna/fraud-detection-backend/blob/main/Screenshot%20(24).png)]()
 
 
