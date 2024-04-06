@@ -152,3 +152,7 @@ In the future, we plan to:
 ## References
 
 [Research paper](https://d1wqtxts1xzle7.cloudfront.net/60581311/credit-card-fraud-detection-using-machine-learning-IJERTV8IS09003120190913-7894-171thvf-libre.pdf?1568377014=&response-content-disposition=inline%3B+filename%3DIJERT_Credit_Card_Fraud_Detection_using.pdf&Expires=1712406455&Signature=BvtOl0NgbC5ZzniUasGv6zRL~21NXNHAL-R64OhdvoWNkkdhIjix2ranYMktYBrTu6OeXLVqR9Cbhmt6JHbhdZ3gn72fiMcvz0-tyda-uc~WPpbwbMJBcuJZ-h8-miYB8xnYwO6yLNl7JOEm6mde-gcA6Mlo6SrYDtk1f)
+
+
+## Machine Learning Algorithm:
+[ML Algo](https://github.com/sarikasingh30/CallOut-Farzi)
